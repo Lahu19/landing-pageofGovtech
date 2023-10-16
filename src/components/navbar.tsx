@@ -69,7 +69,7 @@ const Navbar = () => {
                 offset={-50}
                 onClick={closeSidebar}
               >
-                <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
                   Impact
                 </button>
               </Link>
@@ -80,7 +80,7 @@ const Navbar = () => {
                 offset={-50}
                 onClick={closeSidebar}
               >
-                <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
                   Chapters
                 </button>
               </Link>
@@ -91,7 +91,7 @@ const Navbar = () => {
                 offset={-50}
                 onClick={closeSidebar}
               >
-                <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
                   Chapter Structure
                 </button>
               </Link>
@@ -105,17 +105,17 @@ const Navbar = () => {
           </div>
           <div className="flex">
             <Link to="home" smooth={true} duration={500} offset={-50}>
-              <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
                 Home
               </button>
             </Link>
             <Link to="impact" smooth={true} duration={500} offset={-50}>
-              <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
                 Impact
               </button>
             </Link>
             <Link to="chapters" smooth={true} duration={500} offset={-50}>
-              <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
                 Chapters
               </button>
             </Link>
@@ -125,7 +125,7 @@ const Navbar = () => {
               duration={500}
               offset={-50}
             >
-              <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
                 Chapter Structure
               </button>
             </Link>

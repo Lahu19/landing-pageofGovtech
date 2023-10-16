@@ -18,6 +18,16 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+}
+::-webkit-scrollbar-track {
+  background-color: var(--primary-color);
+}
+
 .home {
   background: url("/images/white-bg.png") no-repeat center center;
   background-size: cover;
