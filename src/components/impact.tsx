@@ -42,7 +42,7 @@ const Impact = () => {
             </div>
           </div>
           <a
-            className="bg-secondary text-white px-10 py-2 rounded-full mt-5 font-mono-medium w-fit text-[16px] md:text-[18px]"
+            className="bg-secondary text-white hover:bg-white hover:text-[#06244f] px-10 py-2 rounded-full mt-5 font-mono-medium w-fit text-[16px] md:text-[18px]"
             href="https://www.codeforgovtech.in/c4gt2023"
             target="_blank"
           >

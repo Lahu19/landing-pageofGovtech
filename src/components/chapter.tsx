@@ -24,17 +24,20 @@ const Chapter = () => {
         </div>
       </div>
       <div className="container mx-auto  md:grid md:grid-cols-3 md:gap-12 pb-20">
-        <div className="bg-white mx-5 md:mx-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+        <div className="bg-white mx-5 md:mx-0 mt-8 md:mt-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+          <img src="/images/impact.png" className="mx-auto mb-5 px-4" />
           <div className="text-primary text-center font-mono-medium text-[18px] md:text-[20px]">
             Work with Social Impact Organizations
           </div>
         </div>
-        <div className="bg-white mx-5 md:mx-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+        <div className="bg-white mx-5 md:mx-0 mt-8 md:mt-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+          <img src="/images/help.png" className="mx-auto mb-5 px-4" />
           <div className="text-primary text-center font-mono-medium text-[18px] md:text-[20px]">
             Guidance from Industry Experts
           </div>
         </div>
-        <div className="bg-white mx-5 md:mx-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+        <div className="bg-white mx-5 md:mx-0 mt-8 md:mt-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+          <img src="/images/open-source.png" className="mx-auto mb-5 px-4" />
           <div className="text-primary text-center font-mono-medium text-[18px] md:text-[20px]">
             Contribute to Open Source Projects
           </div>
