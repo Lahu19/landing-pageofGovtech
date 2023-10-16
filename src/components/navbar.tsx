@@ -1,25 +1,22 @@
 import React, { useState, useEffect } from "react";
+import { Link, Element } from "react-scroll";
 
 const Navbar = () => {
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768); // Adjust this breakpoint as needed
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  // Function to check if the screen size is smaller than "md"
   const checkScreenSize = () => {
-    setIsSmallScreen(window.innerWidth < 1124); // Adjust this breakpoint as needed
+    setIsSmallScreen(window.innerWidth < 1124);
   };
 
-  // Toggle the sidebar state when the hamburger button is clicked
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
   };
 
-  // Close the sidebar when a navigation link is clicked (optional)
   const closeSidebar = () => {
     setSidebarOpen(false);
   };
 
-  // Add a listener to check the screen size on window resize
   useEffect(() => {
     checkScreenSize();
     window.addEventListener("resize", checkScreenSize);
@@ -32,55 +29,72 @@ const Navbar = () => {
     <div>
       {isSmallScreen ? (
         <div>
-          {/* Hamburger menu button */}
           <div className="flex py-2 container mx-auto justify-between px-5">
             <button
               className="hamburger-button text-primary text-[30px] flex justify-end self-center"
               onClick={toggleSidebar}
             >
-              &#9776; {/* Unicode character for the hamburger icon */}
+              &#9776;
             </button>
             <img src="./images/logo.png" width={"80px"} />
           </div>
 
           {sidebarOpen && (
             <div className="sidebar">
-              {/* Place sidebar content here */}
-              {/* Include a close button or links to close the sidebar */}
               <button
                 className="close-button text-primary w-full text-[40px] flex justify-end"
                 onClick={toggleSidebar}
               >
-                &times; {/* Unicode character for the "x" close icon */}
+                &times;
               </button>
               <div className="flex justify-center mb-4">
                 <img src="./images/logo.png" width={"80px"} />
               </div>
 
-              <button
-                className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full"
+              <Link
+                to="home"
+                smooth={true}
+                duration={500}
+                offset={-50}
                 onClick={closeSidebar}
               >
-                Home
-              </button>
-              <button
-                className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full"
+                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                  Home
+                </button>
+              </Link>
+              <Link
+                to="impact"
+                smooth={true}
+                duration={500}
+                offset={-50}
                 onClick={closeSidebar}
               >
-                Impact
-              </button>
-              <button
-                className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full"
+                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                  Impact
+                </button>
+              </Link>
+              <Link
+                to="chapters"
+                smooth={true}
+                duration={500}
+                offset={-50}
                 onClick={closeSidebar}
               >
-                Chapters
-              </button>
-              <button
-                className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full"
+                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                  Chapters
+                </button>
+              </Link>
+              <Link
+                to="chapter-structure"
+                smooth={true}
+                duration={500}
+                offset={-50}
                 onClick={closeSidebar}
               >
-                Chapter Structure
-              </button>
+                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                  Chapter Structure
+                </button>
+              </Link>
             </div>
           )}
         </div>
@@ -90,18 +104,31 @@ const Navbar = () => {
             <img src="./images/logo.png" width={"80px"} />
           </div>
           <div className="flex mt-[-10px]">
-            <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
-              Home
-            </button>
-            <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
-              Impact
-            </button>
-            <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
-              Chapters
-            </button>
-            <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
-              Chapter Structure
-            </button>
+            <Link to="home" smooth={true} duration={500} offset={-50}>
+              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+                Home
+              </button>
+            </Link>
+            <Link to="impact" smooth={true} duration={500} offset={-50}>
+              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+                Impact
+              </button>
+            </Link>
+            <Link to="chapters" smooth={true} duration={500} offset={-50}>
+              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+                Chapters
+              </button>
+            </Link>
+            <Link
+              to="chapter-structure"
+              smooth={true}
+              duration={500}
+              offset={-50}
+            >
+              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+                Chapter Structure
+              </button>
+            </Link>
           </div>
         </nav>
       )}

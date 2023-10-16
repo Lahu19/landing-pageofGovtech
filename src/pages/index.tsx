@@ -6,15 +6,24 @@ import Home from "@component/components/home";
 import Impact from "@component/components/impact";
 import Navbar from "@component/components/navbar";
 import Team from "@component/components/team";
+import { Element } from "react-scroll";
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <Home />
-      <Impact />
-      <Chapter />
-      <Team />
+      <Element name="home">
+        <Home />
+      </Element>
+      <Element name="impact">
+        <Impact />
+      </Element>
+      <Element name="chapters">
+        <Chapter />
+      </Element>
+      <Element name="chapter-structure">
+        <Team />
+      </Element>
       <Blogs />
       <Companies />
       <Footer />
