@@ -9,7 +9,7 @@ const Home = () => {
             <h1 className="text-secondary text-[24px] md:text-[50px] font-bold">
               Code For GovTech (C4GT)
             </h1>
-            <p className="my-4 text-primary font-mono-medium text-[16px] md:text-[18px] ">
+            <p className="my-4 text-primary font-mono-medium text-[16px] md:text-[20px] ">
               C4GT is an ecosystem initiative to build an open-source community
               around Digital Public Goods (DPG) or Digital Public Infrastructure
               (DPI) or other tech building blocks with use cases in social impact.
@@ -18,7 +18,7 @@ const Home = () => {
               Know More
             </button> */}
           </div>
-          <div className="pt-8 md:py-0 md:w-[30vw]">
+          <div className="pt-8 md:py-0 md:w-[20vw]">
             <img src="./images/home.png" alt="Home" />
           </div>
         </div>
