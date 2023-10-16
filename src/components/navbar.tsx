@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div>
+    <div className="sticky top-0 z-10 bg-white shadow-lg">
       {isSmallScreen ? (
         <div>
           <div className="flex py-2 container mx-auto justify-between px-5">
@@ -69,7 +69,7 @@ const Navbar = () => {
                 offset={-50}
                 onClick={closeSidebar}
               >
-                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
                   Impact
                 </button>
               </Link>
@@ -80,7 +80,7 @@ const Navbar = () => {
                 offset={-50}
                 onClick={closeSidebar}
               >
-                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
                   Chapters
                 </button>
               </Link>
@@ -91,7 +91,7 @@ const Navbar = () => {
                 offset={-50}
                 onClick={closeSidebar}
               >
-                <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
+                <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
                   Chapter Structure
                 </button>
               </Link>
@@ -99,23 +99,23 @@ const Navbar = () => {
           )}
         </div>
       ) : (
-        <nav className="bg-white px-4 pt-6 pb-3 flex container mx-auto justify-between items-center">
+        <nav className="bg-white px-4 py-2 flex container mx-auto justify-between items-center">
           <div>
-            <img src="./images/logo.png" width={"80px"} />
+            <img src="./images/logo.png" width={"75px"} />
           </div>
-          <div className="flex mt-[-10px]">
+          <div className="flex">
             <Link to="home" smooth={true} duration={500} offset={-50}>
-              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+              <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
                 Home
               </button>
             </Link>
             <Link to="impact" smooth={true} duration={500} offset={-50}>
-              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+              <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
                 Impact
               </button>
             </Link>
             <Link to="chapters" smooth={true} duration={500} offset={-50}>
-              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+              <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
                 Chapters
               </button>
             </Link>
@@ -125,7 +125,7 @@ const Navbar = () => {
               duration={500}
               offset={-50}
             >
-              <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
+              <button className="bg-primary cursor-pointer hover.bg-[#b99806] hover:text-primary text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
                 Chapter Structure
               </button>
             </Link>
