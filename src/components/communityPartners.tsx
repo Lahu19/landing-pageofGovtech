@@ -1,0 +1,38 @@
+import React from "react";
+
+const CommunityPartners = () => {
+  return (
+    <div className="home">
+      <div className="container mx-auto py-20 px-5 md:px-0">
+        <div className="h-100 flex flex-col justify-center items-center cols-2">
+          {/* <h1 className="text-secondary text-[24px] md:text-[50px] font-bold pb-2">
+            Impact
+          </h1>
+          <div className="container mx-auto w-[20vw] pb-10 md:pb-16">
+            <img src="/images/separator.png" />
+          </div>
+          <p className="mb-4 font-mono-medium text-white xl:px-24 text-center text-[16px] md:text-[20px] ">
+            C4GT has conducted two rounds of Dedicated Mentoring Program (DMP)
+            since 2022 where selected students and working professionals get an
+            opportunity to contribute to critical tech building blocks with the
+            guidance of a dedicated mentor. They work closely with DPG builder
+            and adopter organizations on real world problem statements that have
+            a population scale social impact.
+          </p>
+          <p className="mt-10 font-mono-medium text-white xl:px-24 text-center text-[16px] md:text-[22px] ">
+            Here is a glimpse of the program from 2022 & 2023!
+          </p> */}
+          <div className="px-5 md:px-0 grid grid-cols-1 md:grid md:grid-cols-5 gap-5 container mx-auto">
+            <img src="/images/organisations/dpga.png" />
+            <img src="/images/organisations/github.png" />
+            <img src="/images/organisations/oni.png" />
+            <img src="/images/organisations/bmgf.png" />
+            <img src="/images/organisations/samagra.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default CommunityPartners;

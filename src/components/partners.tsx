@@ -11,7 +11,7 @@ const Partners = () => {
           <div className="container mx-auto w-[40vw] pb-5 md:pb-10">
             <img src="/images/separator.png" />
           </div>
-          <div className="container mx-auto  md:grid md:grid-cols-2 md:gap-12 pb-10 mt-5 md:mt-8">
+          <div className="container mx-auto  md:grid md:grid-cols-2 md:gap-12 mt-5 md:mt-8">
             <div className="bg-white mx-5 md:mx-0 py-2 md:px-0 rounded-xl border-[3px] border-[#B99806]">
               <iframe
                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7105904854564306945"

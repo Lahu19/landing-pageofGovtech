@@ -1,5 +1,7 @@
+import Advisors from "@component/components/advisors";
 import Blogs from "@component/components/blogs";
 import Chapter from "@component/components/chapter";
+import CommunityPartners from "@component/components/communityPartners";
 import Companies from "@component/components/companies";
 import Engagement from "@component/components/engagement";
 import { Footer } from "@component/components/footer";
@@ -29,6 +31,8 @@ export default function App() {
       <Blogs />
       <Engagement />
       <Partners />
+      <Advisors />
+      <CommunityPartners />
       <Companies />
       <Footer />
     </>
