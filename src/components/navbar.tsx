@@ -36,7 +36,7 @@ const Navbar = () => {
             >
               &#9776;
             </button>
-            <img src="./images/logo.png" width={"80px"} />
+            <img src="./images/logo-text.webp" width={"120px"} />
           </div>
 
           {sidebarOpen && (
@@ -48,7 +48,7 @@ const Navbar = () => {
                 &times;
               </button>
               <div className="flex justify-center mb-4">
-                <img src="./images/logo.png" width={"80px"} />
+                <img src="./images/logo-text.webp" width={"120px"} />
               </div>
 
               <Link
@@ -101,7 +101,7 @@ const Navbar = () => {
       ) : (
         <nav className="bg-white px-4 py-2 flex container mx-auto justify-between items-center">
           <div>
-            <img src="./images/logo.png" width={"75px"} />
+            <img src="./images/logo-text.webp" width={"120px"} />
           </div>
           <div className="flex">
             <Link to="home" smooth={true} duration={500} offset={-50}>

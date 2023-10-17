@@ -1,10 +1,12 @@
 import Blogs from "@component/components/blogs";
 import Chapter from "@component/components/chapter";
 import Companies from "@component/components/companies";
+import Engagement from "@component/components/engagement";
 import { Footer } from "@component/components/footer";
 import Home from "@component/components/home";
 import Impact from "@component/components/impact";
 import Navbar from "@component/components/navbar";
+import Partners from "@component/components/partners";
 import Team from "@component/components/team";
 import { Element } from "react-scroll";
 
@@ -25,6 +27,8 @@ export default function App() {
         <Team />
       </Element>
       <Blogs />
+      <Engagement />
+      <Partners />
       <Companies />
       <Footer />
     </>

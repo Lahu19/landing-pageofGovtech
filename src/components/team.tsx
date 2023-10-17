@@ -8,12 +8,111 @@ const Team = () => {
         <img src="/images/separator.png" />
       </div>
       <div>
+        <div className="md:py-5">
+          <div className="container mx-auto md:grid md:grid-cols-5 gap-5 py-10 md:py-20">
+            <div className="h-100 md:flex md:flex-col md:justify-center md:col-span-3 px-5 md:px-0 text-center md:text-left">
+              <h1 className="text-secondary text-[20px] md:text-[35px] font-bold">
+                Chapter Members
+              </h1>
+              <p className="my-4 text-white font-mono-medium text-[16px] md:text-[20px] ">
+                Chapter membership is open to all, with no specific eligibility
+                criteria for joining. We welcome individuals from diverse
+                backgrounds, experiences, and skill sets to become valued
+                members of the C4GT community. Whether you're a student or
+                simply passionate about technology and social impact, you are
+                encouraged to join the college Chapter. As a member, you will
+                have the opportunity to contribute, learn, and collaborate with
+                like-minded individuals who share a common goal of driving
+                positive change through technology.
+              </p>
+              {/* <div className="bg-white mx-5 md:mx-0 py-12 mt-5 px-5 md:px-10 rounded-xl border-[3px] border-[#B99806]">
+                <div className="text-secondary text-center md:text-left font-bold mb-4 text-[18px] md:text-[25px]">
+                  Privileges
+                </div>
+                <ul className="font-mono-medium text-left text-primary list-disc px-5">
+                  <li>
+                    <span className="text-secondary font-mono-medium">
+                      Digital Certificate:
+                    </span>{" "}
+                    A certificate to acknowledge your involvement in the C4GT
+                    Program
+                  </li>
+                  <li>
+                    <span className="text-secondary font-mono-medium">
+                      C4GT Goodies (T-shirt, Bottle, Diary):
+                    </span>{" "}
+                    Exclusive C4GT branded merchandise, including a T-shirt,
+                    water bottle, and diary
+                  </li>
+                  <li>
+                    <span className="text-secondary font-mono-medium">
+                      Access to 1:1s sessions with C4GT Supermentors:
+                    </span>{" "}
+                    Gain valuable insights and guidance through sessions and
+                    one-on-one interactions with experienced C4GT Supermentors
+                  </li>
+                  <li>
+                    <span className="text-secondary font-mono-medium">
+                      Recognition at the DPG Dialogues:
+                    </span>{" "}
+                    Your achievements and contributions will be publicly
+                    recognized during the DPG Dialogues events
+                  </li>
+                </ul>
+              </div> */}
+            </div>
+            <div className="pt-8 md:py-0 w-[80vw] md:w-auto mx-auto md:col-span-2  self-center md:flex md:justify-end">
+              <img src="./images/members.png" />
+            </div>
+          </div>
+
+          <div className="container mx-auto pb-20">
+            <div className="bg-white mx-5 md:mx-0 py-12 mt-5 px-5 md:px-10 rounded-xl border-[3px] border-[#B99806]">
+              <div className="text-secondary text-center md:text-left font-bold mb-4 text-[18px] md:text-[25px]">
+                Privileges
+              </div>
+              <ul className="font-mono-medium text-left text-primary list-disc px-5">
+                <li>
+                  <span className="text-secondary font-mono-medium">
+                    Digital Certificate:
+                  </span>{" "}
+                  A certificate to acknowledge your involvement in the C4GT
+                  Program
+                </li>
+                <li>
+                  <span className="text-secondary font-mono-medium">
+                    C4GT Goodies (T-shirt, Bottle, Diary):
+                  </span>{" "}
+                  Exclusive C4GT branded merchandise, including a T-shirt, water
+                  bottle, and diary
+                </li>
+                <li>
+                  <span className="text-secondary font-mono-medium">
+                    Access to 1:1s sessions with C4GT Supermentors:
+                  </span>{" "}
+                  Gain valuable insights and guidance through sessions and
+                  one-on-one interactions with experienced C4GT Supermentors
+                </li>
+                <li>
+                  <span className="text-secondary font-mono-medium">
+                    Recognition at the DPG Dialogues:
+                  </span>{" "}
+                  Your achievements and contributions will be publicly
+                  recognized during the DPG Dialogues events
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="container mx-auto pb-20">
+          <img src="/images/separator.png" />
+        </div>
         <div className="container mx-auto md:grid md:grid-cols-3 gap-5">
           <div className="h-100 md:flex md:flex-col md:justify-center md:col-span-2 px-5 md:px-0 text-center md:text-left">
             <h1 className="text-secondary text-[20px] md:text-[35px] font-bold">
               President
             </h1>
-            <p className="my-4 text-white font-mono-medium">
+            <p className="my-4 text-white font-mono-medium text-[16px] md:text-[20px] ">
               The tenure of the President will be for a year. The first round of
               college Chapters will be set up via the DMP alumni, therefore, it
               will be limited to the colleges from where DMP contributors were
@@ -30,7 +129,7 @@ const Team = () => {
           </div>
         </div>
         <div className="container mx-auto  md:grid md:grid-cols-2 md:gap-12 pb-20">
-          <div className="bg-white mx-5 md:mx-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+          <div className="bg-white mx-5 md:mx-0 py-12 px-5 md:px-10 rounded-xl border-[3px] border-[#B99806]">
             <div className="text-secondary text-center md:text-left font-bold mb-6 text-[18px] md:text-[25px]">
               Key Responsibilities
             </div>
@@ -42,7 +141,7 @@ const Team = () => {
               <li>Conduct monthly workshops & submit monthly impact reports</li>
             </ul>
           </div>
-          <div className="bg-white mx-5 md:mx-0 mt-8 md:mt-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+          <div className="bg-white mx-5 md:mx-0 mt-8 md:mt-0 py-12 px-5 md:px-10 rounded-xl border-[3px] border-[#B99806]">
             <div className="text-secondary text-center md:text-left font-bold mb-6 text-[18px] md:text-[25px]">
               Privileges
             </div>
@@ -66,7 +165,7 @@ const Team = () => {
             <h1 className="text-secondary text-[20px] md:text-[35px] font-bold">
               Core Team
             </h1>
-            <p className="my-4 text-white font-mono-medium">
+            <p className="my-4 text-white font-mono-medium text-[16px] md:text-[20px] ">
               The tenure of the Core Team will be for a year. The team should
               have 5 members with a minimum of 3 members having a technical
               background / interest and the remaining members to have marketing
@@ -82,7 +181,7 @@ const Team = () => {
           </div>
         </div>
         <div className="container mx-auto  md:grid md:grid-cols-2 md:gap-12 pb-20">
-          <div className="bg-white mx-5 md:mx-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+          <div className="bg-white mx-5 md:mx-0 py-12 px-5 md:px-10 rounded-xl border-[3px] border-[#B99806]">
             <div className="text-secondary text-center md:text-left font-bold mb-6 text-[18px] md:text-[25px]">
               Key Responsibilities
             </div>
@@ -98,7 +197,7 @@ const Team = () => {
               <li>Assist in creating and submitting monthly impact reports</li>
             </ul>
           </div>
-          <div className="bg-white mx-5 md:mx-0 mt-8 md:mt-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
+          <div className="bg-white mx-5 md:mx-0 mt-8 md:mt-0 py-12 px-5 md:px-10 rounded-xl border-[3px] border-[#B99806]">
             <div className="text-secondary text-center md:text-left font-bold mb-6 text-[18px] md:text-[25px]">
               Privileges
             </div>
@@ -111,9 +210,9 @@ const Team = () => {
             </ul>
           </div>
         </div>
-        <div className="container mx-auto">
+        {/* <div className="container mx-auto">
           <img src="/images/separator.png" />
-        </div>
+        </div> */}
       </div>
 
       {/* <div className="py-10">
@@ -140,7 +239,7 @@ const Team = () => {
           </div>
         </div>
         <div className="container mx-auto grid grid-cols-2 gap-12 py-20">
-          <div className="bg-white py-12 px-10 rounded-xl border-[5px] border-[#B99806]">
+          <div className="bg-white py-12 px-10 rounded-xl border-[3px] border-[#B99806]">
             <div className="text-secondary font-bold mb-6 text-[18px] md:text-[25px]">
               Key Responsibilities
             </div>
@@ -152,7 +251,7 @@ const Team = () => {
               <li>Conduct monthly workshops & submit monthly impact reports</li>
             </ul>
           </div>
-          <div className="bg-white py-12 px-10 rounded-xl border-[5px] border-[#B99806]">
+          <div className="bg-white py-12 px-10 rounded-xl border-[3px] border-[#B99806]">
             <div className="text-secondary font-bold mb-6 text-[18px] md:text-[25px]">
               Privileges
             </div>
@@ -169,72 +268,6 @@ const Team = () => {
           <img src="/images/separator.png" />
         </div>
       </div> */}
-
-      <div className="md:py-5">
-        <div className="container mx-auto md:grid md:grid-cols-3 gap-5 py-10 md:py-20">
-          <div className="h-100 md:flex md:flex-col md:justify-center md:col-span-2 px-5 md:px-0 text-center md:text-left">
-            <h1 className="text-secondary text-[20px] md:text-[35px] font-bold">
-              Chapter Members & Contributors
-            </h1>
-            <p className="my-4 text-white font-mono-medium">
-              Chapter membership is open to all, with no specific eligibility
-              criteria for joining. We welcome individuals from diverse
-              backgrounds, experiences, and skill sets to become valued members
-              of the C4GT community. Whether you're a student or simply
-              passionate about technology and social impact, you are encouraged
-              to join the college Chapter. As a member, you will have the
-              opportunity to contribute, learn, and collaborate with like-minded
-              individuals who share a common goal of driving positive change
-              through technology.
-            </p>
-          </div>
-          <div className="pt-8 md:py-0 w-[80vw] md:w-[20vw] mx-auto flex justify-center md:flex md:justify-end">
-            <img src="./images/members.png" />
-          </div>
-        </div>
-        <div className="container mx-auto  md:grid md:grid-cols-2 md:gap-12 pb-20">
-          <div className="bg-white mx-5 md:mx-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
-            <div className="text-secondary text-center md:text-left font-bold mb-4 text-[18px] md:text-[25px]">
-              Chapter Members
-            </div>
-            <p className="mb-6 text-primary font-mono-medium">
-              Term: Till the time the member is studying in the particular
-              college.
-            </p>
-            <div className="text-secondary text-center md:text-left font-bold mb-4 text-[18px] md:text-[25px]">
-              Privileges
-            </div>
-            <ul className="font-mono-medium text-primary list-disc px-8">
-              <li>Exposure to open-source contributions</li>
-              <li>An opportunity to understand the DPG/DPI domain</li>
-              <li>
-                The chance to contribute to DPG/DPI/tech building blocks for
-                social impact.
-              </li>
-            </ul>
-          </div>
-          <div className="bg-white mx-5 md:mx-0 mt-8 md:mt-0 py-12 px-5 md:px-10 rounded-xl border-[5px] border-[#B99806]">
-            <div className="text-secondary text-center md:text-left font-bold mb-4 text-[18px] md:text-[25px]">
-              Contributors
-            </div>
-            <p className="mb-6 text-primary font-mono-medium">
-              No limit, can also keep contributing once they pass out of the
-              college.
-            </p>
-            <div className="text-secondary text-center md:text-left font-bold mb-4 text-[18px] md:text-[25px]">
-              Privileges
-            </div>
-            <ul className="font-mono-medium text-primary list-disc px-8">
-              <li>Incentives based on their DPG points</li>
-              <li>An advantage in the DMP 2024 application process</li>
-              <li>
-                Exposure to working on real-world projects contributing to
-                nation-building.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
 
       {/* <div className="py-10">
         <div className="container mx-auto grid grid-cols-3 gap-12">
@@ -260,7 +293,7 @@ const Team = () => {
           </div>
         </div>
         <div className="container mx-auto grid grid-cols-2 gap-12 py-20">
-          <div className="bg-white py-12 px-10 rounded-xl border-[5px] border-[#B99806]">
+          <div className="bg-white py-12 px-10 rounded-xl border-[3px] border-[#B99806]">
             <div className="text-secondary font-bold mb-6 text-[18px] md:text-[25px]">
               Key Responsibilities
             </div>
@@ -272,7 +305,7 @@ const Team = () => {
               <li>Conduct monthly workshops & submit monthly impact reports</li>
             </ul>
           </div>
-          <div className="bg-white py-12 px-10 rounded-xl border-[5px] border-[#B99806]">
+          <div className="bg-white py-12 px-10 rounded-xl border-[3px] border-[#B99806]">
             <div className="text-secondary font-bold mb-6 text-[18px] md:text-[25px]">
               Privileges
             </div>
