@@ -19,7 +19,7 @@ const Partners = () => {
                 width="100%"
                 frameBorder="0"
                 allowFullScreen
-                title="Embedded post"
+                title="Ashwin Date | C4GT Mentor"
               ></iframe>
             </div>
             <div className="bg-white mx-5 md:mx-0 mt-8 md:mt-0 py-2 px-5 md:px-0 rounded-xl border-[3px] border-[#B99806]">
