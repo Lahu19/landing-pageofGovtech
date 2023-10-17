@@ -5,7 +5,7 @@ const Partners = () => {
     <div className="home">
       <div className="container mx-auto py-20 px-5 md:px-0">
         <div className="h-100 flex flex-col justify-center items-center cols-2">
-          <h1 className="text-secondary text-[24px] md:text-[50px] font-bold pb-2">
+          <h1 className="text-secondary text-[24px] md:text-[50px] font-bold pb-2 text-center">
             Words from Our Community
           </h1>
           <div className="container mx-auto w-[40vw] pb-5 md:pb-10">
