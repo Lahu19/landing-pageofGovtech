@@ -8,11 +8,11 @@ const Team = () => {
         <img src="/images/separator.png" />
       </div>
       <div>
-        <div className="md:py-5">
+        <div className="">
           <div className="container mx-auto md:grid md:grid-cols-5 gap-5 py-10 md:py-20">
             <div className="h-100 md:flex md:flex-col md:justify-center md:col-span-3 px-5 md:px-0 text-center md:text-left">
               <h1 className="text-secondary text-[20px] md:text-[35px] font-bold">
-                Chapter Members
+                Members
               </h1>
               <p className="my-4 text-white font-mono-medium text-[16px] md:text-[20px] ">
                 Chapter membership is open to all, with no specific eligibility
@@ -66,7 +66,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="container mx-auto pb-20">
+          <div className="container mx-auto pb-10">
             <div className="bg-white mx-5 md:mx-0 py-12 mt-5 px-5 md:px-10 rounded-xl border-[3px] border-[#B99806]">
               <div className="text-secondary text-center md:text-left font-bold mb-4 text-[18px] md:text-[25px]">
                 Privileges
@@ -104,6 +104,16 @@ const Team = () => {
             </div>
           </div>
         </div>
+        <div className="container mx-auto mb-10 md:mb-16 flex justify-center">
+          <a
+            className="bg-secondary text-white container mx-auto w-fit hover:bg-white hover:text-[#06244f] px-10 py-2 rounded-full font-mono-medium text-[16px] md:text-[22px]"
+            href="https://discord.gg/eynnfCarWu"
+            target="_blank"
+          >
+            Join the Community
+          </a>
+        </div>
+
         <div className="container mx-auto pb-20">
           <img src="/images/separator.png" />
         </div>

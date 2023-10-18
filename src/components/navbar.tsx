@@ -6,7 +6,7 @@ const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const checkScreenSize = () => {
-    setIsSmallScreen(window.innerWidth < 1124);
+    setIsSmallScreen(window.innerWidth < 1200);
   };
 
   const toggleSidebar = () => {
@@ -36,7 +36,9 @@ const Navbar = () => {
             >
               &#9776;
             </button>
-            <img src="./images/logo-text.webp" width={"120px"} />
+            <a href="https://codeforgovtech.in" target="_blank">
+              <img src="./images/logo-text.webp" width={"120px"} />
+            </a>
           </div>
 
           {sidebarOpen && (
@@ -48,7 +50,9 @@ const Navbar = () => {
                 &times;
               </button>
               <div className="flex justify-center mb-4">
-                <img src="./images/logo-text.webp" width={"120px"} />
+                <a href="https://codeforgovtech.in" target="_blank">
+                  <img src="./images/logo-text.webp" width={"120px"} />
+                </a>
               </div>
 
               <Link
@@ -81,7 +85,7 @@ const Navbar = () => {
                 onClick={closeSidebar}
               >
                 <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium text-[16px] mt-4 w-full">
-                  Chapters
+                  College Chapter
                 </button>
               </Link>
               <Link
@@ -101,7 +105,9 @@ const Navbar = () => {
       ) : (
         <nav className="bg-white px-4 py-2 flex container mx-auto justify-between items-center">
           <div>
-            <img src="./images/logo-text.webp" width={"120px"} />
+            <a href="https://codeforgovtech.in" target="_blank">
+              <img src="./images/logo-text.webp" width={"120px"} />
+            </a>
           </div>
           <div className="flex">
             <Link to="home" smooth={true} duration={500} offset={-50}>
@@ -116,7 +122,7 @@ const Navbar = () => {
             </Link>
             <Link to="chapters" smooth={true} duration={500} offset={-50}>
               <button className="bg-primary cursor-pointer hover:bg-[#b99806] hover:text-primary mr-4 text-white px-10 py-2 rounded-full font-mono-medium w-fit text-[16px]">
-                Chapters
+                College Chapter
               </button>
             </Link>
             <Link

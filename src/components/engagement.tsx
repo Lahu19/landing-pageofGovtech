@@ -47,7 +47,7 @@ const Engagement = () => {
                 width={"110px"}
               />
               <div className="text-primary text-center font-mono-medium text-[18px] md:text-[20px]">
-                Industry Relevant Guest sessions / workshops
+                Industry relevant guest sessions / workshops
               </div>
             </div>
           </div>

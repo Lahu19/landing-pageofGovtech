@@ -22,12 +22,25 @@ const CommunityPartners = () => {
           <p className="mt-10 font-mono-medium text-white xl:px-24 text-center text-[16px] md:text-[22px] ">
             Here is a glimpse of the program from 2022 & 2023!
           </p> */}
-          <div className="px-5 md:px-0 grid grid-cols-1 md:grid md:grid-cols-5 gap-5 container mx-auto">
-            <img src="/images/organisations/dpga.png" />
-            <img src="/images/organisations/github.png" />
-            <img src="/images/organisations/oni.png" />
-            <img src="/images/organisations/bmgf.png" />
-            <img src="/images/organisations/samagra.png" />
+          <div className="px-5 md:px-0 grid grid-cols-1 md:grid md:grid-cols-5 gap-12 container mx-auto">
+            <div className="bg-white px-4 py-4 h-100 flex justify-center items-center">
+              <img
+                src="/images/DPGA.svg"
+                className="self-center h-100 md:mx-10"
+              />
+            </div>
+            <div className="bg-white px-4 py-4 h-100 flex justify-center items-center">
+              <img src="/images/Github.png" className="self-center h-100" />
+            </div>
+            <div className="bg-white px-4 py-4 h-100 flex justify-center items-center">
+              <img src="/images/oni.jpg" className="self-center h-100" />
+            </div>
+            <div className="bg-white px-4 py-4 h-100 flex justify-center items-center">
+              <img src="/images/bmgf.png" className="self-center h-100" />
+            </div>
+            <div className="bg-white px-4 py-4 h-100 flex justify-center items-center">
+              <img src="/images/Samagra.png" className="self-center h-100" />
+            </div>
           </div>
         </div>
       </div>

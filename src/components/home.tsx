@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Home = () => {
   return (
@@ -11,8 +11,8 @@ const Home = () => {
             </h1>
             <p className="my-4 text-primary font-mono-medium text-[16px] md:text-[22px] ">
               C4GT is an ecosystem initiative to build an open-source community
-              around Digital Public Goods (DPG) or Digital Public Infrastructure
-              (DPI) or other tech building blocks with use cases in social impact.
+              around Digital Public Goods (DPG), Digital Public Infrastructure
+              (DPI) and tech building blocks with use cases in social impact.
             </p>
             {/* <button className="bg-primary text-white px-7 py-2 rounded-full mt-5 font-mono-medium w-fit">
               Know More
