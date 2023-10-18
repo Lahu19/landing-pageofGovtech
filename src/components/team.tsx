@@ -74,31 +74,29 @@ const Team = () => {
               <ul className="font-mono-medium text-left text-primary list-disc px-5">
                 <li>
                   <span className="text-secondary font-mono-medium">
-                    Digital Certificate:
+                    Acknowledgement of your contribution
                   </span>{" "}
-                  A certificate to acknowledge your involvement in the C4GT
-                  Program
+                  to products via certificates, digital badges, DPG points and a
+                  lot more! Know more about the incentive framework
                 </li>
                 <li>
                   <span className="text-secondary font-mono-medium">
-                    C4GT Goodies (T-shirt, Bottle, Diary):
+                    Public recognition for outstanding work
                   </span>{" "}
-                  Exclusive C4GT branded merchandise, including a T-shirt, water
-                  bottle, and diary
+                  through offline industry events like DPG Dialoguess
                 </li>
                 <li>
                   <span className="text-secondary font-mono-medium">
-                    Access to 1:1s sessions with C4GT Supermentors:
+                    Access to guidance
                   </span>{" "}
-                  Gain valuable insights and guidance through sessions and
-                  one-on-one interactions with experienced C4GT Supermentors
+                  from C4GT mentors and industry experts via offline, virtual
+                  and 1:1 sessions
                 </li>
                 <li>
                   <span className="text-secondary font-mono-medium">
-                    Recognition at the DPG Dialogues:
+                    C4GT goodies
                   </span>{" "}
-                  Your achievements and contributions will be publicly
-                  recognized during the DPG Dialogues events
+                  that you can flaunt!
                 </li>
               </ul>
             </div>
@@ -159,7 +157,7 @@ const Team = () => {
               <li>Networking opportunities with industry experts</li>
               <li>Access to exclusive events</li>
               <li>Eligible for exclusive recognition & awards</li>
-              <li>Curated goodies (t-shirts, stickers, etc)</li>
+              <li>Curated goodies</li>
               <li>Recognition certificate</li>
             </ul>
           </div>
@@ -215,7 +213,7 @@ const Team = () => {
               <li>Networking opportunities with industry experts </li>
               <li>Access to exclusive events</li>
               <li>Eligible for exclusive recognition & awards</li>
-              <li>Curated goodies (t-shirts, stickers, etc)</li>
+              <li>Curated goodies</li>
               <li>Recognition certificate</li>
             </ul>
           </div>

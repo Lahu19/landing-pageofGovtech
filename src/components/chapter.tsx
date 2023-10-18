@@ -12,7 +12,9 @@ const Chapter = () => {
             <p className="my-4 text-primary font-mono-medium text-[16px] md:text-[22px] ">
               If you are excited to solve real world problems with your code,
               then C4GT is the community for you. We are launching C4GT Chapters
-              in your college.
+              in your college where each chapter will get an opportunity to work
+              closely with select organizations and contribute to their products
+              that are creating population scale impact!
             </p>
             {/* <button className="bg-primary text-white px-7 py-2 rounded-full mt-5 font-mono-medium w-fit">
               Know More
