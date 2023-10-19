@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className="home">
-      <div className="container mx-auto py-10 px-5 md:px-0">
+      <div className="container mx-auto pt-16 pb-10 px-5 md:px-0">
         <div className="md:flex md:items-center">
           <div className="md:w-[80%] text-center md:text-left">
             <h1 className="text-secondary text-[24px] md:text-[50px] font-bold">

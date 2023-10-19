@@ -83,7 +83,7 @@ const Team = () => {
                   <span className="text-secondary font-mono-medium">
                     Public recognition for outstanding work
                   </span>{" "}
-                  through offline industry events like DPG Dialoguess
+                  through offline industry events like DPG Dialogues
                 </li>
                 <li>
                   <span className="text-secondary font-mono-medium">
@@ -97,6 +97,12 @@ const Team = () => {
                     C4GT goodies
                   </span>{" "}
                   that you can flaunt!
+                </li>
+                <li>
+                  <span className="text-secondary font-mono-medium">
+                    Advantage while applying
+                  </span>{" "}
+                  for the Dedicated Mentoring Program 2024
                 </li>
               </ul>
             </div>
@@ -121,15 +127,15 @@ const Team = () => {
               President
             </h1>
             <p className="my-4 text-white font-mono-medium text-[16px] md:text-[20px] ">
-              The tenure of the President will be for a year. The first round of
-              college Chapters will be set up via the DMP alumni, therefore, it
-              will be limited to the colleges from where DMP contributors were
-              selected. Based on their performance and their interest, the alum
-              can take up the role of the Founding President of the C4GT Chapter
-              in their college. This exception has been made only for the first
-              year and once the term ends, a new President will be selected
-              after a rigorous selection process. The process will be set up and
-              communicated with the chapter by Mar'24.
+              The first round of college Chapters will be set up via the DMP
+              alumni, therefore, it will be limited to the colleges from where
+              DMP contributors were selected. Based on their performance and
+              their interest, the alum can take up the role of the Founding
+              President of the C4GT Chapter in their college. This exception has
+              been made only for the first year. The tenure of the President
+              will be for a year and once the term ends, a new President will be
+              selected after a rigorous selection process. The process will be
+              set up and communicated with the chapter by Mar'24.
             </p>
           </div>
           <div className="pt-8 md:py-0 w-[80vw] md:w-[20vw] mx-auto flex justify-center md:flex md:justify-end">
@@ -144,7 +150,9 @@ const Team = () => {
             <ul className="font-mono-medium text-primary list-disc px-8">
               <li>Formation of a Core Team</li>
               <li>Oversee & lead the functioning of the Chapter</li>
-              <li>Ensure regular weekly Chapter meet-ups & org PoC connects</li>
+              <li>
+                Ensure weekly Chapter meet-ups and connects with organizations
+              </li>
               <li>Ensure high quality contributions</li>
               <li>Conduct monthly workshops & submit monthly impact reports</li>
             </ul>
@@ -156,9 +164,9 @@ const Team = () => {
             <ul className="font-mono-medium text-primary list-disc px-8">
               <li>Networking opportunities with industry experts</li>
               <li>Access to exclusive events</li>
-              <li>Eligible for exclusive recognition & awards</li>
-              <li>Curated goodies</li>
+              <li>Eligible for recognition & awards</li>
               <li>Recognition certificate</li>
+              <li>Curated goodies</li>
             </ul>
           </div>
         </div>
@@ -174,14 +182,14 @@ const Team = () => {
               Core Team
             </h1>
             <p className="my-4 text-white font-mono-medium text-[16px] md:text-[20px] ">
-              The tenure of the Core Team will be for a year. The team should
-              have 5 members with a minimum of 3 members having a technical
-              background / interest and the remaining members to have marketing
-              / event coordination / outreach experience. The team should have a
-              minimum of 2 women members. The President will form their Core
-              Team and submit a justification proposal with details (past
-              experience, resume etc) of each member to the C4GT team for
-              review.
+              The Core Team will comprise of 5 members with a minimum of 3
+              members having a technical background / interest and the remaining
+              members to have marketing / event coordination / outreach
+              experience. The team should have a minimum of 2 women members. The
+              President will form their Core Team and submit a justification
+              proposal with details (past experience, resume etc) for each
+              member to the C4GT team for review. The Core Team's term will last
+              for a year.
             </p>
           </div>
           <div className="pt-8 md:py-0 w-[80vw] md:w-[20vw] mx-auto flex justify-center md:flex md:justify-end">
@@ -218,6 +226,7 @@ const Team = () => {
             </ul>
           </div>
         </div>
+        
         {/* <div className="container mx-auto">
           <img src="/images/separator.png" />
         </div> */}
