@@ -109,13 +109,13 @@ const Team = () => {
           </div>
         </div>
         <div className="container mx-auto mb-10 md:mb-16 flex justify-center">
-          <a
+          {/* <a
             className="bg-secondary text-white container mx-auto w-fit hover:bg-white hover:text-[#06244f] px-10 py-2 rounded-full font-mono-medium text-[16px] md:text-[22px]"
             href="https://discord.gg/eynnfCarWu"
             target="_blank"
           >
             Join the Community
-          </a>
+          </a> */}
         </div>
 
         <div className="container mx-auto pb-20">
