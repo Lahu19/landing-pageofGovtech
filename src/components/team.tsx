@@ -130,6 +130,7 @@ const Team = () => {
               The President serves as the spearhead of the Chapter. In the first round, college Chapters were set up via the DMP alumni, therefore, it was limited to the colleges from which DMP contributors were selected. Based on their performance and their interest, the alum could take up the role of the Founding President of the C4GT Chapter in their college. This exception has been made only for the first year.<br /> <br /> 
 In the second round, we’ve opened up applications for the role of founding President for everyone. Anyone interested in setting up a Chapter can fill out the interest form to submit their application. The C4GT team will reach out to the candidates to take it further.<br /> <br /> 
 The tenure of the President will be for a year and once the term ends, a new President will be selected after a rigorous selection process.<br /> <br /> 
+Apply <a href="https://forms.gle/cKkJU3ReD6MjCss27" target="_blank">here</a>.
             </p>
           </div>
           <div className="pt-8 md:py-0 w-[80vw] md:w-[20vw] mx-auto flex justify-center md:flex md:justify-end">
