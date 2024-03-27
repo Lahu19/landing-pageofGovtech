@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary-color: #06244f;
+  --secondary-color: #b99806;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+}
+::-webkit-scrollbar-track {
+  background-color: var(--primary-color);
+}
+
+.home {
+  background: url("/images/white-bg.png") no-repeat center center;
+  background-size: cover;
+}
+.impact {
+  background: url("/images/blue-bg.png") no-repeat center center;
+  background-size: cover;
+}
+
+.bg-primary {
+  background: var(--primary-color);
+}
+
+.bg-secondary {
+  background: var(--secondary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+@font-face {
+  font-family: Mulish-bold;
+  src: url("../fonts/Mulish-Bold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mulish-demi;
+  src: url("../fonts/Mulish-Demi.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mulish-medium;
+  src: url("../fonts/Mulish-Medium.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mulish-regular;
+  src: url("../fonts/Mulish-Regular.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mono-medium;
+  src: url("../fonts/DMMono-Medium.ttf");
+}
+@font-face {
+  font-family: Mono-regular;
+  src: url("../fonts/DMMono-Regular.ttf");
+}
+
+.font-bold {
+  font-family: Mulish-bold !important;
+}
+.font-demi {
+  font-family: Mulish-demi !important;
+}
+.font-medium {
+  font-family: Mulish-medium !important;
+}
+.font-regular {
+  font-family: Mulish-regular !important;
+}
+.font-mono-medium {
+  font-family: Mono-medium !important;
+}
+.font-mono-regular {
+  font-family: Mono-regular !important;
+}
+
+.tech-slideshow {
+  height: 300px;
+  max-width: 100vw;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 300px;
+  width: 17356px;
+  background: url("/images/community.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 150s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -300px;
+  animation: moveSlideshow 150s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+  opacity: 1;
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
+}
+
+/* Define the animation */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the element */
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1s; /* You can adjust the duration as needed */
+}
+
+/* Add this CSS to your stylesheet */
+.hide-on-small-screen {
+  display: none;
+}
+
+/* Create a sidebar style */
+.sidebar {
+  max-width: 100vw;
+  background: #fff;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: -100%; /* Start with the sidebar off-screen to the left */
+  height: 100%;
+  padding: 0px 20px;
+  animation: slideIn 0.6s forwards; /* Apply the slideIn animation */
+}
+
+@keyframes slideIn {
+  0% {
+    left: -100%; /* Start with the sidebar off-screen to the left */
+  }
+  100% {
+    left: 0; /* Move the sidebar to the left edge of the screen */
+  }
+}
+
